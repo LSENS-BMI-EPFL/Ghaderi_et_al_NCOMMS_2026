@@ -1,0 +1,29 @@
+function color=manual_colormap(data,min_negative_color,max_negative_color,min_positive_color,max_positive_color)
+
+  
+     ind_neg=find(data<0);
+     neg_data=data(ind_neg);
+     min_max_scale=[0;min(neg_data)];
+     min_max_rgb_negative=[max_negative_color;min_negative_color];
+     if isempty(neg_data)
+         map_negative=[];
+     else
+     map_negative=interp1(min_max_scale,min_max_rgb_negative,neg_data);
+     end
+    % for positive range
+     ind_pos=find(0<=data);
+     pos_data=data(ind_pos);
+     min_max_scale=[max(pos_data);0];
+     min_max_rgb_negative=[max_positive_color;min_positive_color];
+      if isempty(pos_data)
+         map_positive=[];
+     else
+     map_positive=interp1(min_max_scale,min_max_rgb_negative,pos_data,'spline');
+     end
+
+
+     map=[map_positive;map_negative];
+     indecis=[ind_pos;ind_neg];
+     a=sortrows([map,indecis],4);
+     color=a(:,1:3);
+
