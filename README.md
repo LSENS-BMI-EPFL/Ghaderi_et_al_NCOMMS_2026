@@ -57,7 +57,7 @@ SUBFOLDER CONTENTS
 
 3. processed_data_code (subfolder)
 	This subfolder contains 26 Matlab codes and one Python code to process the data from NWB data files.
-	To run the Matlab codes, add to the Matlab path the parent folder (2026_Ghaderi_NCOMM_Zenodo_data_code) with subfolders, and run the different codes from the parent folder. The codes should be run in the following order:
+	To run the Matlab codes, add to the Matlab path the parent folder (2026_Ghaderi_NCOMM_Zenodo_data_code) with subfolders, and run the different codes from the parent folder. The codes should be run      in the following order:
 
 		1.	psth_5ms.m
 		2.	psth_10ms.m
@@ -89,7 +89,7 @@ SUBFOLDER CONTENTS
 
 4. Main_figures_codes(subfolder)
 	This subfolder contains 24 Matlab codes and 2 Python codes to replicate the main figures of the paper.
-	To run the Matlab codes, add to the Matlab path the parent folder (2026_Ghaderi_NCOMM_Zenodo_data_code) with subfolders, and run the different codes from the parent folder. The codes can be run in any order:
+	To run the Matlab codes, add to the Matlab path the parent folder (2026_Ghaderi_NCOMM_Zenodo_data_code) with subfolders, and run the different codes from the parent folder. The codes can be run in      any order:
 
 		1.	Ghaderi2025_Figure1_c_Performance.m
 		2.	Ghaderi2025_Figure1_d_Movements_AllTrials.m
@@ -121,7 +121,7 @@ SUBFOLDER CONTENTS
 
 5. Supplementary_figures_codes (subfolder)
 	This subfolder contains 30 Matlab codes and 1 Python codes to replicate the supplementary figures of the paper.
-	To run the Matlab codes, add to the Matlab path the parent folder (2026_Ghaderi_NCOMM_Zenodo_data_code) with subfolders, and run the different codes from the parent folder. The codes can be run in any order:
+	To run the Matlab codes, add to the Matlab path the parent folder (2026_Ghaderi_NCOMM_Zenodo_data_code) with subfolders, and run the different codes from the parent folder. The codes can be run in      any order:
 		
 		1.	Ghaderi2025_Sup_Figure1_a_performance_heatmap.m
 		2.	Ghaderi2025_Sup_Figure1_b_SpoutReactionTime.m
