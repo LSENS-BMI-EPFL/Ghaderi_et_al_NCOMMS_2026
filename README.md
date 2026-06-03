@@ -132,28 +132,28 @@ SUBFOLDER CONTENTS
 		7.	Ghaderi2025_Sup_Figure3_a_Heatmaps.m
 		8.	Ghaderi2025_Sup_Figure3_b_Brainmaps.m
 		9.	Ghaderi2025_Sup_Figure4_b_ProbesLocation.m
-		10.	Ghaderi2025_Sup_Figure4_c_Gotone.m
-		11.	Ghaderi2025_Sup_Figure4_d_Nogotone.m
-		12.	Ghaderi2025_Sup_Figure5_a_3DViews.m
-		13.	Ghaderi2025_Sup_Figure6_a_audio.m
-		14.	Ghaderi2025_Sup_Figure6_b_whisker.m
-		15.	Ghaderi2025_Sup_Figure7_a_b_RSFS_PSTH.m
-		16.	Ghaderi2025_Sup_Figure8_a_b_PSTH_Nobasesubtraction_layerwise.m
-		17.	Ghaderi2025_Sup_Figure9.ipynb (PYTHON CODE !!!)
-		18.	Ghaderi2025_Sup_Figure10_ab_ROC_psths.m
-		19.	Ghaderi2025_Sup_Figure11_ab_NullPotent_GoNogo_FullScale.m
-		20.	Ghaderi2025_Sup_Figure11_ab_NullPotent_GoNogo_SameScale.m
-		21.	Ghaderi2025_Sup_Figure12_fixDecoder.m
-		22.	Ghaderi2025_Sup_Figure13_a_b_vectorfields.m
-		23.	Ghaderi2025_Sup_Figure13_c_vectorangle_oversession.m
-		24.	Ghaderi2025_Sup_Figure14_temporalCorr100ms.m
-		25.	Ghaderi2025_Sup_Figure15_a_b_exampleUnits_positive.m
-		26.	Ghaderi2025_Sup_Figure15_c_d_exampleUnits_negative.m
-		27.	Ghaderi2025_Sup_Figure16_a_allunits.m
-		28.	Ghaderi2025_Sup_Figure16_b_RSunits.m
-		29.	Ghaderi2025_Sup_Figure16_c_FSunits.m
-		30.	Ghaderi2025_Sup_Figure17_Context_CD_LickvsNolick.m
-		31.	Ghaderi2025_Sup_Figure18_SpontLick_CD_LickvsNolick_200mswindow.m
+		10. Ghaderi2025_Sup_Figure4_c_Gotone.m
+		11. Ghaderi2025_Sup_Figure4_d_Nogotone.m
+		12. Ghaderi2025_Sup_Figure5_a_3DViews.m
+		13. Ghaderi2025_Sup_Figure6_a_audio.m
+		14. Ghaderi2025_Sup_Figure6_b_whisker.m
+		15. Ghaderi2025_Sup_Figure7_a_b_RSFS_PSTH.m
+		16. Ghaderi2025_Sup_Figure8_a_b_PSTH_Nobasesubtraction_layerwise.m
+		17. Ghaderi2025_Sup_Figure9.ipynb (PYTHON CODE !!!)
+		18. Ghaderi2025_Sup_Figure10_ab_ROC_psths.m
+		19. Ghaderi2025_Sup_Figure11_ab_NullPotent_GoNogo_FullScale.m
+		20. Ghaderi2025_Sup_Figure11_ab_NullPotent_GoNogo_SameScale.m
+		21. Ghaderi2025_Sup_Figure12_fixDecoder.m
+		22. Ghaderi2025_Sup_Figure13_a_b_vectorfields.m
+		23. Ghaderi2025_Sup_Figure13_c_vectorangle_oversession.m
+		24. Ghaderi2025_Sup_Figure14_temporalCorr100ms.m
+		25. Ghaderi2025_Sup_Figure15_a_b_exampleUnits_positive.m
+		26. Ghaderi2025_Sup_Figure15_c_d_exampleUnits_negative.m
+		27. Ghaderi2025_Sup_Figure16_a_allunits.m
+		28. Ghaderi2025_Sup_Figure16_b_RSunits.m
+		29. Ghaderi2025_Sup_Figure16_c_FSunits.m
+		30. Ghaderi2025_Sup_Figure17_Context_CD_LickvsNolick.m
+		31. Ghaderi2025_Sup_Figure18_SpontLick_CD_LickvsNolick_200mswindow.m
 
 
 *************************************************
