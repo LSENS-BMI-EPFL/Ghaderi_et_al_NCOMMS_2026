@@ -1,2 +1,176 @@
-# Ghaderi_et_al_NCOMS_2026
-Repository for the code related to the publication of Ghaderi et al., Nature Communications, 2026, 10.1038/s41467-026-73622-y
+*************************************************
+*************************************************
+*************************************************
+CODE FOR
+Contextual gating of whisker-evoked responses by frontal cortex supports flexible decision making.
+Nature Communications 2026
+doi https://doi.org/10.1038/s41467-026-73622-y
+
+Written by Parviz Ghaderi, Sylvain Crochet and Carl C.H. Petersen
+2026.04.20
+Laboratory of Sensory Processing
+Brain Mind Institute
+Ecole Polytechnique Federale de Lausanne (EPFL)
+Switzerland.
+*************************************************
+*************************************************
+*************************************************
+
+
+*************************************************
+FOLDER CONTENTS
+
+This folder contains codes used to compute the analyses and plot the figures presented in the main text and supplementary information.
+It contains the following subfolders:
+
+
+
+1. data_helpers : small data structures used in the analyses
+2. functions : functions and toolboxes used in the main codes
+3. processed_data_code : codes used to generate the analyses from the NWB files and saving processed data in the 'processed_data' subfolder 
+4. Main_figures_codes: code plotting the main figures of the publication and saving each panel in the 'Main_figures_pdf' subfolder
+5. Supplementary_figures_codes: code plotting the supplementary figures of the publication and saving each panel in the 'Supplementary_figures_pdf' subfolder
+
+*************************************************
+SUBFOLDER CONTENTS
+
+
+1. data_helpers (subfolder)
+	This subfolder contains 3 Matlab data structures used for the analyses
+		- Area_list.mat provides the list of Allen ccf locations for each cortical area of interest
+		- Area_Top_Coordinates.mat provides the AP/ML coordinates for each cortical area of interest
+		- Lick_times.mat provides the times (s) of spontaneous licks as well as continuous Jaw position for each high-density extracellular recording session 
+
+
+2. functions (subfolder)
+	This subfolder contains 7 toolboxes:
+		- allenCCF : for registration of the probe tracks to the Allen CCF
+		- colors : color maps for figures
+		- libsvm-master : for SVM classification and regression 
+		- NeurodataWithoutBorders-matnwb-5396243 : Matlab interface for reading and writing Neurodata Without Borders (NWB) files
+		- npy-matlab: to read and write NumPy's NPY format (`.npy` files) in MATLAB
+		- prettify_matlab-main : for figure design optimization 
+		- subspaceID-main : to identify null and potent subspaces
+
+	as well as custom functions used in the analyses and figure plotting codes
+
+
+3. processed_data_code (subfolder)
+	This subfolder contains 26 Matlab codes and one Python code to process the data from NWB data files.
+	To run the Matlab codes, add to the Matlab path the parent folder (2026_Ghaderi_NCOMM_Zenodo_data_code) with subfolders, and run the different codes from the parent folder. Each code will generate a Matlab data structure or a Python file that will be saved in the 'processed_data' subfolder. The codes should be run in the following order:
+
+1.	psth_5ms.m
+2.	psth_10ms.m
+3.	psth_mat_sub_PG082_ses_20221113T145317.m
+4.	Neuronal_data_10ms.m
+5.	Neuronal_data_10ms_withroc.m
+6.	Neuronal_data_100ms.m
+7.	Data_Clustering.ipynb (PYTHON CODE !!!)
+8.	Movement_subspace_Define.m
+9.	Movement_subspace_Decoding_null.m
+10.	Movement_subspace_Decoding_potent.m
+11.	Coding_direction_5ms.m
+12.	Coding_direction_10ms.m
+13.	Coding_direction_SpontLick.m
+14.	Modulation.m
+15.	Roc_hit_cr3.m
+16.	pc_projections.m
+17.	Temporal_corrrelation_10ms.m
+18.	Temporal_corrrelation_100ms.m
+19.	Decoding_clusters_random_dropout.m
+20.	Decoding_delay.m
+21.	Decoding_training_on_prewhisk_All.m
+22.	Decoding_training_on_prewhisk_FS.m
+23.	Decoding_training_on_prewhisk_RS.m
+24.	Decoding_afterwhisker_runX.m
+25.	Decoding_NbNeurons5_50.m (This code may take a long time to run !!!)
+26.	Decoding_NbNeurons5_75.m (This code may take a long time to run !!!)
+27.	Optoinhibition_mat.m
+
+4. Main_figures_codes(subfolder)
+	This subfolder contains 24 Matlab codes and 2 Python codes to replicate the main figures of the paper.
+	To run the Matlab codes, add to the Matlab path the parent folder (2026_Ghaderi_NCOMM_Zenodo_data_code) with subfolders, and run the different codes from the parent folder. Each code will generate a .pdf or .svg file that will be saved in the 'Main_figures_pdf' subfolder. The codes can be run in any order:
+
+1.	Ghaderi2025_Figure1_c_Performance.m
+2.	Ghaderi2025_Figure1_d_Movements_AllTrials.m
+3.	Ghaderi2025_Figure1_e_Movements_QuietTrials.m
+4.	Ghaderi2025_Figure1_f_Movements_Hit.m
+5.	Ghaderi2025_Figure2_b_Heatmaps.m
+6.	Ghaderi2025_Figure2_c_Brainmaps.m
+7.	Ghaderi2025_Figure2_d_Plick_Sessions.m
+8.	Ghaderi2025_Figure3_a_brainmap_activity.m
+9.	Ghaderi2025_Figure3_b_PSTH_brainareas.m
+10.	Ghaderi2025_Figure3_c_roc_hit.m
+11.	Ghaderi2025_Figure3_d_PSTH_depth.ipynb (PYTHON CODE !!!)
+12.	Ghaderi2025_Figure4_a&b_heatmaps_psths.ipynb (PYTHON CODE !!!)
+13.	Ghaderi2025_Figure5_a_SingleNeuron.m
+14.	Ghaderi2025_Figure5_b_Decoding.m
+15.	Ghaderi2025_Figure5_c_Dropcluster11.m
+16.	Ghaderi2025_Figure5_c_DropoutClusters_heatmap.m
+17.	Ghaderi2025_Figure5_d_DecodingSubspaces.m
+18.	Ghaderi2025_Figure6_a_pca.m
+19.	Ghaderi2025_Figure6_b_CD_context.m
+20.	Ghaderi2025_Figure6_c_temporalCorrelation.m
+21.	Ghaderi2025_Figure7_a_WhiskerEvoked_psths.m
+22.	Ghaderi2025_Figure7_b_DeltaFR.m
+23.	Ghaderi2025_Figure7_c_StimCD.m
+24.	Ghaderi2025_Figure7_d_ContextDecoding_WS.m
+25.	Ghaderi2025_Figure8_a_CD_LickvsNolick.m
+26.	Ghaderi2025_Figure8_b_SpontLick_CD_LickvsNolick.m
+
+
+5. Supplementary_figures_codes (subfolder)
+	This subfolder contains 30 Matlab codes and 1 Python codes to replicate the supplementary figures of the paper.
+	To run the Matlab codes, add to the Matlab path the parent folder (2026_Ghaderi_NCOMM_Zenodo_data_code) with subfolders, and run the different codes from the parent folder. Each code will generate a .pdf or .svg file that will be saved in the 'Supplementary_figures_pdf' subfolder. The codes can be run in any order:
+
+1.	Ghaderi2025_Sup_Figure1_a_performance_heatmap.m
+2.	Ghaderi2025_Sup_Figure1_b_SpoutReactionTime.m
+3.	Ghaderi2025_Sup_Figure1_c_DelayPeriodLickProbabilty.m
+4.	Ghaderi2025_Sup_Figure1_d_DeeplabCut.m
+5.	Ghaderi2025_Sup_Figure2_a_ReactionTime.m
+6.	Ghaderi2025_Sup_Figure2_b_EarlylickGotone.m
+7.	Ghaderi2025_Sup_Figure3_a_Heatmaps.m
+8.	Ghaderi2025_Sup_Figure3_b_Brainmaps.m
+9.	Ghaderi2025_Sup_Figure4_b_ProbesLocation.m
+10.	Ghaderi2025_Sup_Figure4_c_Gotone.m
+11.	Ghaderi2025_Sup_Figure4_d_Nogotone.m
+12.	Ghaderi2025_Sup_Figure5_a_3DViews.m
+13.	Ghaderi2025_Sup_Figure6_a_audio.m
+14.	Ghaderi2025_Sup_Figure6_b_whisker.m
+15.	Ghaderi2025_Sup_Figure7_a_b_RSFS_PSTH.m
+16.	Ghaderi2025_Sup_Figure8_a_b_PSTH_Nobasesubtraction_layerwise.m
+17.	Ghaderi2025_Sup_Figure9.ipynb (PYTHON CODE !!!)
+18.	Ghaderi2025_Sup_Figure10_ab_ROC_psths.m
+19.	Ghaderi2025_Sup_Figure11_ab_NullPotent_GoNogo_FullScale.m
+20.	Ghaderi2025_Sup_Figure11_ab_NullPotent_GoNogo_SameScale.m
+21.	Ghaderi2025_Sup_Figure12_fixDecoder.m
+22.	Ghaderi2025_Sup_Figure13_a_b_vectorfields.m
+23.	Ghaderi2025_Sup_Figure13_c_vectorangle_oversession.m
+24.	Ghaderi2025_Sup_Figure14_temporalCorr100ms.m
+25.	Ghaderi2025_Sup_Figure15_a_b_exampleUnits_positive.m
+26.	Ghaderi2025_Sup_Figure15_c_d_exampleUnits_negative.m
+27.	Ghaderi2025_Sup_Figure16_a_allunits.m
+28.	Ghaderi2025_Sup_Figure16_b_RSunits.m
+29.	Ghaderi2025_Sup_Figure16_c_FSunits.m
+30.	Ghaderi2025_Sup_Figure17_Context_CD_LickvsNolick.m
+31.	Ghaderi2025_Sup_Figure18_SpontLick_CD_LickvsNolick_200mswindow.m
+
+
+*************************************************
+
+*************************************************
+TESTED COMPUTER PLATFORM
+Desktop
+Processor 13th Gen Intel(R) Core(TM) i5-13600K (3.50 GHz)
+Installed RAM 64.0 GB (63.7 GB usable)
+
+Microsoft Windows
+Edition Windows 11 Education
+
+Mathworks Matlab 
+R2022b Update 8 (9.13.0.2502115)
+
+Python
+Version 3.11.9
+
+*************************************************
