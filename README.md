@@ -28,8 +28,8 @@ It contains the following subfolders:
 1. data_helpers : small data structures used in the analyses
 2. functions : functions and toolboxes used in the main codes
 3. processed_data_code : codes used to generate the analyses from the NWB files and saving processed data in the 'processed_data' subfolder 
-4. Main_figures_codes: code plotting the main figures of the publication and saving each panel in the 'Main_figures_pdf' subfolder
-5. Supplementary_figures_codes: code plotting the supplementary figures of the publication and saving each panel in the 'Supplementary_figures_pdf' subfolder
+4. Main_figures_codes: code plotting the main figures of the publication 
+5. Supplementary_figures_codes: code plotting the supplementary figures of the publication
 
 *************************************************
 SUBFOLDER CONTENTS
