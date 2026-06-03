@@ -14,7 +14,7 @@ Written by Parviz Ghaderi, Sylvain Crochet and Carl C.H. Petersen — 2026.04.20
 
 ## Overview
 
-This folder contains the code used to compute the analyses and plot the figures presented in the main text and supplementary information. The actual data and large files are **not** included in this code repository, but they can be downloaded from the **Zenodo** or **DANDI** repository associated with the publication.
+This folder contains the code used to compute the analyses and plot the figures presented in the main text and supplementary information. The actual data and large files are **not** included in this code repository, but they can be downloaded from the **Zenodo** or **DANDI** repository associated with the publication. The figure folders are as well empty and will be filled once the code is run.
 
 ## Folder structure
 
