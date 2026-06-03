@@ -100,23 +100,23 @@ SUBFOLDER CONTENTS
 		7.	Ghaderi2025_Figure2_d_Plick_Sessions.m
 		8.	Ghaderi2025_Figure3_a_brainmap_activity.m
 		9.	Ghaderi2025_Figure3_b_PSTH_brainareas.m
-		10.	Ghaderi2025_Figure3_c_roc_hit.m
-		11.	Ghaderi2025_Figure3_d_PSTH_depth.ipynb (PYTHON CODE !!!)
-		12.	Ghaderi2025_Figure4_a&b_heatmaps_psths.ipynb (PYTHON CODE !!!)
-		13.	Ghaderi2025_Figure5_a_SingleNeuron.m
-		14.	Ghaderi2025_Figure5_b_Decoding.m
-		15.	Ghaderi2025_Figure5_c_Dropcluster11.m
-		16.	Ghaderi2025_Figure5_c_DropoutClusters_heatmap.m
-		17.	Ghaderi2025_Figure5_d_DecodingSubspaces.m
-		18.	Ghaderi2025_Figure6_a_pca.m
-		19.	Ghaderi2025_Figure6_b_CD_context.m
-		20.	Ghaderi2025_Figure6_c_temporalCorrelation.m
-		21.	Ghaderi2025_Figure7_a_WhiskerEvoked_psths.m
-		22.	Ghaderi2025_Figure7_b_DeltaFR.m
-		23.	Ghaderi2025_Figure7_c_StimCD.m
-		24.	Ghaderi2025_Figure7_d_ContextDecoding_WS.m
-		25.	Ghaderi2025_Figure8_a_CD_LickvsNolick.m
-		26.	Ghaderi2025_Figure8_b_SpontLick_CD_LickvsNolick.m
+		10. Ghaderi2025_Figure3_c_roc_hit.m
+		11. Ghaderi2025_Figure3_d_PSTH_depth.ipynb (PYTHON CODE !!!)
+		12. Ghaderi2025_Figure4_a&b_heatmaps_psths.ipynb (PYTHON CODE !!!)
+		13. Ghaderi2025_Figure5_a_SingleNeuron.m
+		14. Ghaderi2025_Figure5_b_Decoding.m
+		15. Ghaderi2025_Figure5_c_Dropcluster11.m
+		16. Ghaderi2025_Figure5_c_DropoutClusters_heatmap.m
+		17. Ghaderi2025_Figure5_d_DecodingSubspaces.m
+		18. Ghaderi2025_Figure6_a_pca.m
+		19. Ghaderi2025_Figure6_b_CD_context.m
+		20. Ghaderi2025_Figure6_c_temporalCorrelation.m
+		21. Ghaderi2025_Figure7_a_WhiskerEvoked_psths.m
+		22. Ghaderi2025_Figure7_b_DeltaFR.m
+		23. Ghaderi2025_Figure7_c_StimCD.m
+		24. Ghaderi2025_Figure7_d_ContextDecoding_WS.m
+		25. Ghaderi2025_Figure8_a_CD_LickvsNolick.m
+		26. Ghaderi2025_Figure8_b_SpontLick_CD_LickvsNolick.m
 		
 
 5. Supplementary_figures_codes (subfolder)
