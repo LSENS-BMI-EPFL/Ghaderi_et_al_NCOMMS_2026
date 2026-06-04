@@ -14,14 +14,14 @@ Written by Parviz Ghaderi, Sylvain Crochet and Carl C.H. Petersen — 2026.04.20
 
 ## Overview
 
-This folder contains the code used to compute the analyses and plot the figures presented in the main text and supplementary information. The actual data and large files are **not** included in this code repository, but they can be downloaded from the **Zenodo** (https://doi.org/10.5281/zenodo.17973874) or **DANDI** (DOI TO ADD) repository associated with the publication. The figure folders are as well empty and will be filled once the code is run.
+This folder contains the code used to compute the analyses and plot the figures presented in the main text and supplementary information. The actual data and large files are **not** included in this code repository, but they can be downloaded from the **Zenodo** (https://doi.org/10.5281/zenodo.17973874) or **DANDI** (DOI TO ADD) repository associated with the publication. The figure folders are as well empty and will be filled once the code is run. The Zenodo repository contains reduced versions of the data structures (NWB files with spike times only) while the DANDI repository contains versions with voltage traces included in the files.
 
 ## Folder structure
 
 | # | Folder | Contents |
 |---|--------|----------|
-| 1 | `data_electrophysiology` | High-density extracellular recordings with Neuropixels probes — one NWB file per session |(these files need to be added from Zenodo or DANDI) and are not present in this repository
-| 2 | `data_optogenetics` | Optogenetic inactivation sessions — one NWB file per session |(these files need to be added from Zenodo or DANDI)
+| 1 | `data_electrophysiology` | High-density extracellular recordings with Neuropixels probes — one NWB file per session (these files need to be added from Zenodo or DANDI) and are not present in this repository|
+| 2 | `data_optogenetics` | Optogenetic inactivation sessions — one NWB file per session (these files need to be added from Zenodo or DANDI)|
 | 3 | `data_helpers` | Small data structures used in the analyses (these files need to be added from Zenodo and are not present in this repository) |
 | 4 | `functions` | Functions and toolboxes used in the main codes |
 | 5 | `processed_data_code` | Codes to generate analyses from the NWB files, saving output to `processed_data` |
@@ -65,7 +65,7 @@ Plus custom functions used in the analyses and figure-plotting codes.
 
 ## Running the code
 
-For all MATLAB codes, add the parent folder (`2026_Ghaderi_NCOMM_Zenodo_data_code`) **with subfolders** to the MATLAB path, then run the codes from the parent folder.
+For all MATLAB codes, add the parent folder **with subfolders** to the MATLAB path, then run the codes from the parent folder.
 
 ### 5. `processed_data_code`
 26 MATLAB codes and one Python code that process the data from the NWB files. Each code generates a MATLAB data structure or Python file saved to `processed_data`. **Run in the following order:**
